@@ -4,7 +4,7 @@ Created on Thu Nov 19 21:33:54 2020
 
 @author: PHAN FAMILY
 """
-
+#vòng lặp while
 print("giải phương trình ax+b=0")
 n = int(input("số lần lặp: "))
 i = 1
