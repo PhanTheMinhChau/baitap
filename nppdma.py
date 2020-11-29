@@ -27,8 +27,7 @@ print(data)
 #đọc file JSON từ internet
 js = pd.read_json('https://phantheminhchau.github.io/test/JSON.json', orient='records')
 print("file JSON từ internet")
-for i in range(10):
-    print(js[i])
+print(js.head(10))
 #đồ thị------------------------------------------------------------------------
 name = ["A",'B','C','D']
 gt = [70,82,50,60]
