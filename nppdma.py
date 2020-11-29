@@ -17,12 +17,12 @@ print(b.transpose())      #chuyển vị ma trận
 #đọc file csv từ máy tính
 n = pd.read_csv("test.csv")
 n = n.head(10)
-print('file từ máy')
+print('file CSV từ máy')
 print(n)
 #đọc file csv từ internet
 data = pd.read_csv('https://phantheminhchau.github.io/test/test.csv')
 data = data.head(10)
-print('file từ internet')
+print('file CSV từ internet')
 print(data)
 #đọc file JSON từ internet
 js = pd.read_json('https://phantheminhchau.github.io/test/JSON.json', orient='records')
