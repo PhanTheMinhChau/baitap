@@ -31,6 +31,9 @@ print(js.head(10))
 #đồ thị------------------------------------------------------------------------
 name = ["A",'B','C','D']
 gt = [70,82,50,60]
+gt1 = [86,82,50,40]
+gt2 = [34,60,50,25]
+gt3 = [63,48,55,40]
 
 mp.barh(name, gt, color='blue')
 mp.title("đồ thị hình bar")
@@ -50,7 +53,7 @@ mp.xlabel("name")
 mp.ylabel("giá trị")
 mp.show()
 
-mp.boxplot(gt)
+mp.boxplot([gt,gt1,gt2,gt3], labels=name)
 mp.title("đồ thị hình boxplot")
 mp.xlabel("name")
 mp.ylabel("giá trị")
