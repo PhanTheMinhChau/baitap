@@ -13,9 +13,11 @@ for i in range(n):
     os.chdir(add+"\\thư mục chứa file")
     f = open("file"+str(i+1), "x")
     f.write(''.join(random.choice('0123456789abcdefghijklmnopqrstuvwxyz ') for i in range(1024000)))
+    f.close()
     
 if c!=0:
     os.chdir(add+"\\thư mục chứa file")
     f = open("file"+str(i+2), "x")
     f.write(''.join(random.choice('0123456789abcdefghijklmnopqrstuvwxyz ') for i in range(c)))
+    f.close()
 print("kết thúc")
